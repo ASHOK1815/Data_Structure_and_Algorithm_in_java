@@ -1,3 +1,4 @@
+package queue;
 
 class Queue<E>{
 
@@ -43,7 +44,7 @@ class Queue<E>{
     {
         if(frontNode == null)
         {
-            System.out.println("Queue is empty can't pop element");
+            System.out.println("queue.Queue is empty can't pop element");
             return;
         }
         else
@@ -56,7 +57,7 @@ class Queue<E>{
     {
         if(rearNode == null)
         {
-            System.out.println("Queue is empty");
+            System.out.println("queue.Queue is empty");
         }
         else
         {

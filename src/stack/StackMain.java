@@ -1,3 +1,4 @@
+package stack;
 
 class Stack<E>{
 

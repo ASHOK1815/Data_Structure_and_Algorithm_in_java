@@ -1,3 +1,5 @@
+package linkedlist;
+
 class LinkedList<E>{
 
     class ListNode<E>{
