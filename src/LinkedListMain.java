@@ -174,9 +174,7 @@ public class LinkedListMain {
         linkedList.deleteLastNode();
         linkedList.deletePostion(1);
         linkedList.displayReverse();
-
         //linkedList.displayInReverseUsingRecursion(linkedList.head);
-
         //linkedList.display();
     }
 }
