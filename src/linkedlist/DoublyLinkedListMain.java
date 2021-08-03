@@ -73,12 +73,8 @@ class DoublyLinkedList<E>{
                 System.out.println(temp.data+" ");
                 temp = temp.prev;
             }
-
         }
-
-
     }
-
 
 
 }
