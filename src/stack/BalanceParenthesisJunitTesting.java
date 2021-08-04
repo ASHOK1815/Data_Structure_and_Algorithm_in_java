@@ -13,6 +13,7 @@ public class BalanceParenthesisJunitTesting {
 
         assertEquals("Result", true, balanceParenthesis.isbalanced("()()"));
         assertEquals("Result", false, balanceParenthesis.isbalanced("()((("));
+        assertEquals("Result", false, balanceParenthesis.isbalanced("()))))"));
        // assertEquals("Result", false, balanceParenthesis.isbalanced("()()()")); // it showing error as it did not satisfy the condition
     }
 }
