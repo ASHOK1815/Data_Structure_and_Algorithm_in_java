@@ -1,6 +1,6 @@
 package stack;
 
-class Stack<E>{
+class Stack<E> {
 
     class StackNode<E>{
         E data;
@@ -37,6 +37,7 @@ class Stack<E>{
 
 
     }
+
 
     void pop()
     {
