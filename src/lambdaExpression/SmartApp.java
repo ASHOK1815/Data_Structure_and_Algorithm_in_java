@@ -36,11 +36,11 @@ public class SmartApp {
         data.add(new Data("SOLZAR"));
 
         //FIRST WAY
-//        Collections.sort(data, (Data obj1, Data obj2)->{
-//
-//            return obj1.getName().compareTo(obj2.getName());
-//        });
-//
+        Collections.sort(data, (Data obj1, Data obj2)->{
+
+            return obj1.getName().compareTo(obj2.getName());
+        });
+
         // SECOND WAY
 
         Collections.sort(data, (Data obj1, Data obj2)->{
